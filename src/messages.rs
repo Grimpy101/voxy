@@ -1,6 +1,4 @@
-#[derive(Debug)]
-pub enum Message {
-    CloseImportDialog,
-    ShowImportDialog,
-    ImportOk,
+#[derive(Clone)]
+pub enum UIMessage {
+    SelectRawImport,
 }
