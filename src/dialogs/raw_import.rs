@@ -1,7 +1,5 @@
-pub struct RawImport {
-
-}
+pub struct RawImport {}
 
 pub struct RawImportDialog {
-    import: RawImport
+    import: RawImport,
 }
