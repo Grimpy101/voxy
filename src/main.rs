@@ -13,6 +13,7 @@ use volumes::Volume;
 mod messages;
 mod table;
 mod volumes;
+mod dialogs;
 
 struct State {
     volumes: Vec<Volume>,
