@@ -1,4 +1,6 @@
 #[derive(Clone)]
 pub enum UIMessage {
-    SelectRawImport,
+    RawImportOpen,
+    VolumeListUpdate,
+    SelectedVolumesRemove,
 }
